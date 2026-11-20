@@ -1,0 +1,14 @@
+SISTEMA DE GESTIÓN DE PAQUETERÍA
+
+Cómo ejecutar en IntelliJ IDEA:
+1. File > Open y seleccionar la carpeta "Paqueteria".
+2. Si lo pide, elegir un JDK 17 o superior (File > Project Structure > Project > SDK).
+3. Ejecutar la configuración "VentanaPaqueteria" (o clic derecho en
+   src/VentanaPaqueteria.java > Run 'VentanaPaqueteria.main()').
+
+Archivos:
+- src/Paqueteria.java        Modelo del paquete (encapsulamiento, estado inicial "Receptado").
+- src/Lista.java             Lógica: ArrayList, registro/modificación, estados, recursividad,
+                             ordenamiento (burbuja e inserción) y búsquedas (binaria y combinada).
+- src/VentanaPaqueteria.java Interfaz gráfica Swing (JTabbedPane con 5 pestañas).
+- Evidencias/                Capturas de ejecución y Evidencias.docx.
